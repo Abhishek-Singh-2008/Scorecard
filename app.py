@@ -9,7 +9,7 @@ def index():
 
 @app.route('/data')
 def data():
-    # Make sure your CSV file is named exactly 'Scores.csv'
+   
     df = pd.read_csv('Scores.csv')
     students = []
 
